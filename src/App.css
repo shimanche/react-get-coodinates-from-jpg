@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  position: relative; /* コンテナの位置を相対的に設定します */
+}
+
+.image {
+  width: 100%; /* 画像の幅を調整します */
+  height: auto; /* 画像の高さを自動で調整します */
+}
+
+.marker {
+  position: absolute; /* マーカーを絶対位置に設定します */
+  width: 8px; /* マーカーの直径を8pxに設定します */
+  height: 8px; /* マーカーの直径を8pxに設定します */
+  background-color: red; /* マーカーの色を赤に設定します */
+  border-radius: 50%; /* マーカーを円形にします */
+}
